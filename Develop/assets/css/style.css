@@ -88,55 +88,23 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefits div {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
+.benefits h3 {
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
+.benefits img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 /* Condensed/consolidated identical class selectors' stylings into one (i.e. .benefit-lead, etc.), 
-  taking up < one-third the space.
-
-.benefit-lead h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-lead img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
+taking up < one-third the space. Deleted unneeded classes from index.html. */
 
 .content div {
   margin-bottom: 20px;
@@ -145,6 +113,7 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
+
   /* Condensed/consolidated identical class selectors' stylings into one (i.e. .search-engine-optimisation, etc.), 
   taking up < one-third the space. This was done for div, div img and div h2.*/
 }
@@ -155,7 +124,7 @@ p {
 /* Condensed/consolidated identical class selectors' stylings into one (i.e. .search-engine-optimisation, etc.), 
   taking up < one-third the space. This was done for div, div img and div h2.*/
 
-.content div h2 {
+.content h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
